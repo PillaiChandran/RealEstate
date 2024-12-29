@@ -1,0 +1,51 @@
+.header{
+   height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    gap:0;  
+}
+.headerButton{
+    height: 40px;
+    width: 120px;
+    margin-top: 40px;
+  background-color: blue;
+  border-radius: 5px;
+  position: absolute;
+  right: 10px; 
+  color: white;
+  font-size: medium;
+  border: 2px solid blue;
+}
+.headerButton:hover{
+   scale: 1.1;
+}
+.logo{
+   height: 100px;
+   width: 150px;
+   border-radius: 10px;
+   position: absolute;
+   left: 10px;
+   top:15px;
+}
+.anchor{
+padding-top: 50px;
+height: 50px;
+padding-left: 500px;
+font-size: 16px;
+padding-bottom: 50px;
+}
+a{
+margin-left: 50px;
+ padding-right: 5px;
+  padding-left: 5px;
+  text-decoration: none;
+  color: rgb(213, 199, 199);
+  font-weight: 300;
+}
+a:hover{
+    background-color:  white;
+    height: 10px;
+    border-radius: 7px;
+    color: rgb(103, 95, 95);
+}

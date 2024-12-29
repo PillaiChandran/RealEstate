@@ -1,0 +1,12 @@
+*{
+ 
+  font-family: 'Verdana';
+}
+body,html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.upper{
+  background-color: black;
+}

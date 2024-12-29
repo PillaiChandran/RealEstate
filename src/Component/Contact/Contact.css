@@ -1,0 +1,82 @@
+.info>:nth-child(1){
+    position: absolute;
+    bottom:-1500px;
+    left:200px;  
+    font-size: 18px;
+    color: darkorange;
+}
+.info>:nth-child(2){
+    position: absolute;
+    bottom:-1525px;
+    left: 200px;   
+    font-size: 25px;
+    line-height:0.1;
+    
+}
+.info>:nth-child(3){
+    position: absolute;
+    bottom: -1575px;
+    left: 200px;
+    width: 450px;
+    font-size: 15px;
+    
+}
+.contact-image{
+    position: absolute;
+    left:820px;
+    height: 435px;
+    width: 350px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border: 6px black solid;
+}
+.call-contact{
+    position: absolute;
+    left:220px;
+    bottom:-1750px;
+    line-height: 0.1;
+    font-size: 18px;
+}
+.call-contact>:nth-child(1){
+    position: absolute;
+   bottom: 89px;
+   left:-22px;
+}
+.call-contact>:nth-child(4){
+    height: 40px;
+    width: 120px;
+ 
+  background-color: blue;
+  border-radius: 5px;
+  color: white;
+  font-size: medium;
+  border: 2px solid blue;
+}
+.call-contact>:nth-child(4):hover{
+    scale: 1.1;
+ }
+ .chat-contact{
+    position: absolute;
+    left:420px;
+    bottom:-1750px;
+    line-height: 0.1;
+    font-size: 18px;
+ }
+ .chat-contact>:nth-child(1){
+    position: absolute;
+   bottom: 89px;
+   left:-26px;
+}
+.chat-contact>:nth-child(4){
+    height: 40px;
+    width: 120px;
+ 
+  background-color: blue;
+  border-radius: 5px;
+  color: white;
+  font-size: medium;
+  border: 2px solid blue;
+}
+.chat-contact>:nth-child(4):hover{
+    scale: 1.1;
+ }

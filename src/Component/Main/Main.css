@@ -1,0 +1,107 @@
+.Main{
+    height: 600px;
+    background-color: black;
+    
+}
+.Maintext{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    padding-top: 20px;
+font-size: 60px;
+color: white;
+font-weight:  100;
+width: 400px;
+height: 250px;
+z-index: -1;
+
+}
+.Mainimage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 510px;
+    width:700px;
+ margin-left: 700px;
+position: absolute;
+top:160px;
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+   
+}
+.circle{
+    position: absolute;
+    left: 220px;
+    background-color: blue;
+   opacity: 0.7;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    color: blue; 
+}
+.supporttext{
+    position: absolute;
+    top:430px;
+    color: white;
+    height: 50px;
+    width: 400px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+}
+.icon{
+    height: 40px;
+    width: 35px;
+    position: absolute;
+    top:584px;
+    left: 12px;
+    color: blue;
+    background-color: white;
+}
+.search{
+    height: 40px;
+    width: 360px;
+    border-radius: 10px;
+    position: absolute;
+    top:582px;
+    left: 6px;
+    background-color: white;
+}
+.searchButton{
+    height: 42px;
+    width: 90px;
+    font-size: 40px;
+    
+  background-color: blue;
+  border-radius: 10px;
+  position: absolute;
+  top:583px;
+  left: 368px;
+ 
+  color: white;
+  font-size: medium;
+}
+.searchButton:hover{
+    scale: 1.1;
+}
+.awards{
+    display: flex;
+    justify-content: space-evenly;
+
+   position: absolute; 
+   left:10px;
+  top:670px;
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+ 
+}
+.number{
+    color: darkorange;
+   height: 25px;
+  
+}
+.award-item{
+    padding-left: 15px;
+}
